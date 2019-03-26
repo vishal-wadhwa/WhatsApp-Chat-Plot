@@ -1,10 +1,17 @@
 # WhatsApp Chat Plot
-As the name suggests, this python script plots a graph of _number of messages sent vs months_ of your WhatsApp Chat. You need to supply a txt file which is basically your chat exported from WhatsApp.
+This repo consists of a python script and a WebApp that plots a timeline of messages exchanged on the popular messaging platform WhatsApp. You need to supply a txt file which is basically your chat exported from WhatsApp.
+
+**NOTE**: YOUR MESSAGES ARE NOT SENT OR SAVED ANYWHERE. YOU'RE FREE TO READ THE CODE AND CHECK FOR YOURSELVES.
 
 ## Update
-This tool is now available [here]() with multiple options. Go play with them.
+This tool is now available [here](https://vishal-wadhwa.github.io/WhatsApp-Chat-Plot/) with multiple options. Go play with them.
 
-![Example plot](https://github.com/vishal-wadhwa/WhatsApp-Chat-Plot/blob/master/whatsapp_chat.png)
+- Python
+
+![Example plot](./whatsapp_chat_python.png)
+- WebApp
+
+![Example plot](./whatsapp_chat_webapp.png)
 
 ## Usage 
 1. Exporting chat: 
@@ -24,8 +31,12 @@ This tool is now available [here]() with multiple options. Go play with them.
 
 ## Todo:
 [] Add support for other graphs like polar, doughnut, pie & radar.
+
 [] Update sample file link in index.html
-[] Update app link in readme
+
+[x] Update app link in readme
+
+[x] add screenshots
 
 ## Bugs:
 [] Some parameters trigger change of color in the WebApp.
