@@ -33,7 +33,7 @@ def extract_data(filename):
                 timely_data[person][date] = 0
 
             timely_data[person][date] += 1
-
+    f.close()
     return timely_data
 
 
