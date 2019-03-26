@@ -32,7 +32,7 @@ This tool is now available [here](https://vishal-wadhwa.github.io/WhatsApp-Chat-
 ## Todo:
 [] Add support for other graphs like polar, doughnut, pie & radar.
 
-[] Update sample file link in index.html
+[x] Update sample file link in index.html
 
 [x] Update app link in readme
 
