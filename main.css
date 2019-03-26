@@ -1,0 +1,77 @@
+input[type=file] {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.not-allowed { 
+	cursor: not-allowed;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.default {
+	cursor: default;
+}
+
+.overflow-hide {
+	overflow: hidden;
+}
+
+.small-span {
+	padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+	border-radius: .2rem;
+    height: calc(1.5em + .5rem + 2px);	
+}
+
+.no-right-border {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.no-left-border {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/* github-corner */
+.github-corner:hover .octo-arm {
+	animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}
