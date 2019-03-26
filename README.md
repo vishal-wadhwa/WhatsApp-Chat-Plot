@@ -30,10 +30,10 @@ This tool is now available [here](https://vishal-wadhwa.github.io/WhatsApp-Chat-
 [matplotlib](https://matplotlib.org/)
 
 ## Todo:
-- [] Add support for other graphs like polar, doughnut, pie & radar.
+- [ ] Add support for other graphs like polar, doughnut, pie & radar
 - [x] Update sample file link in index.html
 - [x] Update app link in readme
 - [x] add screenshots
 
 ## Bugs:
-- [] Some parameters trigger change of color in the WebApp.
+- [ ] Some parameters trigger change of color in the WebApp.
