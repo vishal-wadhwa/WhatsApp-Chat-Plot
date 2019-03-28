@@ -38,3 +38,4 @@ This tool is now available [here](https://vishal-wadhwa.github.io/WhatsApp-Chat-
 ## Bugs:
 - [ ] Some parameters trigger change of color in the WebApp.
 - [ ] Incorrect area fill, when show lines is toggled to false.
+- [ ] Filter outlier dates which are ahead of cur date.
